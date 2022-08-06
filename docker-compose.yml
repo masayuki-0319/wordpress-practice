@@ -16,7 +16,7 @@ services:
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
     restart: always
-  wordpress:
+  app:
     image: wordpress:latest
     volumes:
       - wordpress_data:/var/www/html
